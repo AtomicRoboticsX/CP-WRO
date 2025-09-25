@@ -1,5 +1,4 @@
 #include <AFMotor.h>
-
 #include <SoftwareSerial.h>
 
 double Dato;
@@ -21,7 +20,6 @@ bt_serial.begin(9600);
 	motorshield_dc_3.setSpeed(255);
 
 }
-
 
 void loop()
 {
